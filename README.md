@@ -1,5 +1,14 @@
 [![GitHub release](https://img.shields.io/github/release/eez-open/studio.svg)](https://github.com/eez-open/studio/releases) [![license](https://img.shields.io/github/license/eez-open/studio.svg)](https://github.com/eez-open/studio/blob/master/LICENSE.TXT) [![liberapay](https://img.shields.io/liberapay/receives/eez-open.svg?logo=liberapay)](https://liberapay.com/eez-open/donate) [![Downloads](https://img.shields.io/github/downloads/eez-open/studio/total)](https://github.com/eez-open/studio/releases)
 
+### Peak Laboratories Development Repository
+
+This repository is a fork of [the EEZ Studio main repository](https://github.com/eez-open/studio/) which includes two as yet unmerged bug fixes:
+
+1. https://github.com/eez-open/studio/pull/1077
+1. https://github.com/eez-open/studio/pull/1076
+
+EEZ Studio doesn't appear to be under active, regular development, so these fixes, both of which are needed for a proprietary project developed for Peak, are in limbo. Until such time as the Envox team decide to merge them, this fork shall serve as the development repository for the aforementioned proprietary project. All further notes in this repository belong to the Envox team.
+
 ### Tehnical support
 
 Your comments, suggestions, new feature requests and bug reports are welcome and can be made in the [Issues](https://github.com/eez-open/studio/issues) section. However, please take into account that reported issues will be processed by the Envox team according to the best effort principle, so adjust your expectations accordingly. However, if you want a more prompt and high-quality response as well as direct contact with technical support, you can choose one of our [Support plans](https://www.envox.eu/support-plans/) (check also [this](https://www.envox.eu/premium-technical-support-for-eez-studio/) blog post).  
