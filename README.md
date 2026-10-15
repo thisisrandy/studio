@@ -4,10 +4,14 @@
 
 This repository is a fork of [the EEZ Studio main repository](https://github.com/eez-open/studio/) which includes two as yet unmerged bug fixes:
 
-1. https://github.com/eez-open/studio/pull/1077
-1. https://github.com/eez-open/studio/pull/1076
+* https://github.com/eez-open/studio/pull/1077
+* https://github.com/eez-open/studio/pull/1076
 
-EEZ Studio doesn't appear to be under active, regular development, so these fixes, both of which are needed for a proprietary project developed for Peak, are in limbo. Until such time as the Envox team decide to merge them, this fork shall serve as the development repository for the aforementioned proprietary project. All further notes in this repository belong to the Envox team.
+Additionally, it includes a merged fix that Envox has yet to include in a binary release:
+
+* https://github.com/eez-open/studio/issues/841 
+
+EEZ Studio doesn't appear to be under active, regular development, so these fixes, all of which are needed for a proprietary project developed for Peak, are in limbo. Until such time as the Envox team decide to merge them, this fork shall serve as the development repository for the aforementioned proprietary project. All further notes in this repository belong to the Envox team.
 
 ### Tehnical support
 
