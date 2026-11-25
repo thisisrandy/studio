@@ -3181,6 +3181,12 @@ ${source}`;
                                     `Error writing font file '${output}.bin': ${err}`
                                 );
                             }
+                        } else {
+                            this.project._store.outputSectionsStore.write(
+                                Section.OUTPUT,
+                                MessageType.ERROR,
+                                `Error generating font file for '${font.name}': no data`
+                            );
                         }
                     } else if (!font.lvglUseFreeType) {
                         const lvglSourceFile = await font.getLvglSourceFile();
@@ -3212,6 +3218,12 @@ ${source}`;
                                     `Error writing font file '${output}.c': ${err}`
                                 );
                             }
+                        } else {
+                            this.project._store.outputSectionsStore.write(
+                                Section.OUTPUT,
+                                MessageType.ERROR,
+                                `Error generating font file for '${font.name}': no data`
+                            );
                         }
                     }
                 })()
