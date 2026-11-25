@@ -2487,7 +2487,7 @@ export class Font extends EezObject {
             const projectStore = ProjectEditor.getProjectStore(this);
 
             result =
-                projectStore.fontsCacheStore.getCachedFontDefinition(
+                projectStore.fontsCacheStore?.getCachedFontDefinition(
                     extractFontParams
                 );
 
