@@ -9,9 +9,13 @@ This repository is a fork of [the EEZ Studio main repository](https://github.com
 
 Additionally, it includes a merged fix that Envox has yet to include in a binary release:
 
-* https://github.com/eez-open/studio/issues/841 
+* https://github.com/eez-open/studio/issues/841
 
-EEZ Studio doesn't appear to be under active, regular development, so these fixes, all of which are needed for a proprietary project developed for Peak, are in limbo. Until such time as the Envox team decide to merge them, this fork shall serve as the development repository for the aforementioned proprietary project. All further notes in this repository belong to the Envox team.
+### Known issues fixed here
+
+* Headless builds (`--build-project`) did not generate LVGL font source files, and then deleted the ones generated earlier. Fixed in `38684800`. A font file that cannot be generated is now reported as a build error, in `64efd0ff`.
+
+EEZ Studio doesn't appear to be under active, regular development, so these fixes, all of which are needed for a proprietary project developed for Peak, will not be proposed upstream. This fork is the definitive version for that project and is not kept in sync with the Envox repository. All further notes in this repository belong to the Envox team.
 
 ### Tehnical support
 
