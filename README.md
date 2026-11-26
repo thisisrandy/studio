@@ -15,6 +15,8 @@ Additionally, it includes a merged fix that Envox has yet to include in a binary
 
 * Headless builds (`--build-project`) did not generate LVGL font source files, and then deleted the ones generated earlier. Fixed in `38684800`. A font file that cannot be generated is now reported as a build error, in `64efd0ff`.
 
+* A headless build that had errors ended with `Cannot read properties of undefined (reading 'selectTab')` after printing them. Fixed in `b5e8a77c`.
+
 EEZ Studio doesn't appear to be under active, regular development, so these fixes, all of which are needed for a proprietary project developed for Peak, will not be proposed upstream. This fork is the definitive version for that project and is not kept in sync with the Envox repository. All further notes in this repository belong to the Envox team.
 
 ### Tehnical support
