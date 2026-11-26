@@ -819,7 +819,8 @@ export class ProjectStore {
             "buildFiles"
         );
         if (this.outputSectionsStore.getSection(Section.OUTPUT).numErrors > 0) {
-            this.layoutModels.selectTab(
+            // There is no layout in a headless build (--build-project)
+            this.layoutModels?.selectTab(
                 this.layoutModels.root,
                 LayoutModels.OUTPUT_TAB_ID
             );
